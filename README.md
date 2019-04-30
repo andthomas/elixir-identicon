@@ -13,8 +13,3 @@ iex> Identicon.main("Andy")
 returns 
 
 ![Andy.png](https://i.imgur.com/2vNeI9H.png)
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/identicon](https://hexdocs.pm/identicon).
-
