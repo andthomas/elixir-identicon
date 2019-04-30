@@ -1,19 +1,18 @@
 # Identicon
 
-**TODO: Add description**
+This project was built as a part of [The Complete Elixir and Phoenix Bootcamp](https://www.udemy.com/the-complete-elixir-and-phoenix-bootcamp-and-tutorial) tutorials.
 
-## Installation
+The program takes a string and produces a unique png based off the string provided. Images are not generated randomly i.e the string "Andy" will always return the same image.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `identicon` to your list of dependencies in `mix.exs`:
+Example
 
-```elixir
-def deps do
-  [
-    {:identicon, "~> 0.1.0"}
-  ]
-end
 ```
+iex> Identicon.main("Andy")
+```
+
+returns 
+
+![Andy.png](https://i.imgur.com/2vNeI9H.png)
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
 and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
